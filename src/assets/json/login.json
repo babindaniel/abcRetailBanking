@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Admin",
+        "email": "admin@gmail.com",
+        "mobile": "9999988888",
+        "username": "admin",
+        "password": "admin",
+        "uid": "1",
+        "role": "admin",
+        "status": "active"        
+    },
+    {
+        "name": "Test",
+        "email": "test@gmail.com",
+        "mobile": "9898989898",
+        "username": "test",
+        "password": "12345",
+        "uid": "2",
+        "role": "user",
+        "status": "active"         
+    },
+    {
+        "name": "Qwerty",
+        "email": "qwerty@gmail.com",
+        "mobile": "9876598765",
+        "username": "qwerty",
+        "password": "12345",
+        "uid": "3",
+        "role": "user",
+        "status": "active"         
+    }
+]

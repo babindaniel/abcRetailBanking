@@ -1,0 +1,27 @@
+[
+    {"test": [
+        {
+            "accountType": "Savings",
+            "outstanding": "3500"
+        },
+        {
+            "accountType": "Loans",
+            "outstanding": "50000"
+        },
+        {
+            "accountType": "Current",
+            "outstanding": "3500"
+        }
+    ],
+    "qwerty": [
+        {
+            "accountType": "Savings",
+            "outstanding": "7200"
+        },
+        {
+            "accountType": "Loans",
+            "outstanding": "3000"
+        }
+        
+    ]}
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "test": [
+            {
+                "account_name": "ABC",
+                "account_number": "100987",
+                "ifsc": "ABC0011",
+                "branch": "Chennai",
+                "balance_amount": "5200"
+            }            
+        ],
+        "qwerty": [
+            {
+                "account_name": "XYZ",
+                "account_number": "100554",
+                "ifsc": "ABC0011",
+                "branch": "Chennai",
+                "balance_amount": "1023"
+            }            
+        ]
+    }
+]
