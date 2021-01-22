@@ -1,0 +1,38 @@
+<div class="container">
+    <h3>Account Details</h3>
+    <div class="row">
+        <div class="col-md-2">
+            Account Holder Name
+        </div>
+        <div class="col-md-10">
+            {{accounts[0].account_name}}
+        </div>
+        <div class="col-md-2">
+            Account Number
+        </div>
+        <div class="col-md-10">
+            {{accounts[0].account_number}}
+        </div>
+        <div class="col-md-2">
+            IFSC
+        </div>
+        <div class="col-md-10">
+            {{accounts[0].ifsc}}
+        </div>
+        <div class="col-md-2">
+            Branch Name
+        </div>
+        <div class="col-md-10">
+            {{accounts[0].branch}}
+        </div>
+        <div class="col-md-2">
+           Balance Amount
+        </div>
+        <div class="col-md-10">
+            {{accounts[0].balance_amount}}
+        </div>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-sm btn-success" (click)="miniStatement()">Generate Mini Statement</button>
+    </div>
+</div>
