@@ -1,0 +1,10 @@
+<div class="card-columns" *ngFor="let data of getdashboardData">
+    <div class="card bg-light">
+      <div class="card-body text-center">
+        <h4 class="card-title">{{data.accountType}}</h4>
+        <p class="card-text">Outstanding Amount : Rs. {{data.outstanding}}</p>
+        <a href="javascript:void(0)" class="card-link" (click)="account();">View Details</a>
+      </div>
+    </div>
+</div>
+
